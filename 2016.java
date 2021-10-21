@@ -7,7 +7,7 @@ class Solution {
         for(int i=0;i<a-1;i++){
             total += mon[i];
         }
-        answer = week[((total+b)%7)-1];
+        answer = week[((total+b-1)%7)];
         return answer;
     }
 }
